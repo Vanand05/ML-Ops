@@ -4,7 +4,7 @@ Project Assignment:
 This project is to design Feature Store with a ML Pipeline. <br>
 
 Use athletes.csv <br>
-Setup a ML pipeline in any MLOps platform of your choice.<br>
+Setup a ML pipeline in any MLOps platform of your choice. <br>
 Use a feature store with the ML Pipeline.<br>
 Load your data and create features with different version.<br>
 Run experiments with the ML pipeline and feature store<br>
