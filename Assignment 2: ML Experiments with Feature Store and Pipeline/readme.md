@@ -2,6 +2,9 @@ Athlete Performance Prediction - Feature Store ML Pipeline
 
 A complete MLOps pipeline using Feast Feature Store to predict high-performing athletes based on CrossFit competition data.
 
+## Dataset Note
+The original `athletes.csv` (82MB) exceeds GitHub's file size limit. The processed feature datasets (`feature_v1.csv` and `feature_v2.csv`) are included. Original dataset available upon request.
+
 ## Project Overview
 
 This project implements a machine learning pipeline with feature store capabilities to predict athlete performance classification. The system uses two different feature versions, multiple algorithms, and tracks carbon emissions for sustainable ML operations.
