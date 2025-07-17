@@ -1,16 +1,22 @@
-Project Assignment: 
+# Athlete Performance Prediction - Feature Store ML Pipeline
 
+A complete MLOps pipeline using Feast Feature Store to predict high-performing athletes based on CrossFit competition data.
 
-This project is to design Feature Store with a ML Pipeline. <br>
+## Project Overview
 
-Use athletes.csv <br>
-Setup a ML pipeline in any MLOps platform of your choice. <br>
-Use a feature store with the ML Pipeline.<br>
-Load your data and create features with different version.<br>
-Run experiments with the ML pipeline and feature store<br>
-Create 2 different versions of features<br>
-Train an algorithm with the 2 feature versions (do not use AutoML to select the algorithms)<br>
-Train same algorithm with 2 different set of hyperparameters and 2 feature versions (so 4 combinations)<br>
-Compare the results of the different experiments both quantitatively (model metrics) and qualitatively (model plots).<br>
-Compare the carbon emissions for the different experiments.<br>
-Submit working code for the above in your Github with apt video or screenshots depending on the MLOps platform you have choosen<br>
+This project implements a machine learning pipeline with feature store capabilities to predict athlete performance classification. The system uses two different feature versions, multiple algorithms, and tracks carbon emissions for sustainable ML operations.
+
+### Assignment Requirements Met 
+- Feature Store implementation with ML Pipeline (Feast)
+- 2 different feature versions created and deployed
+- 4 model combinations: 2 algorithms × 2 hyperparameter sets
+- Quantitative and qualitative model comparison
+- Carbon emissions tracking for all experiments
+
+## Dataset
+
+**Source:** Athletes.csv (423,006 records, 27 features)
+**Target:** Binary classification - High Performer vs Regular Performer
+**Criteria:** Athletes with Deadlift ≥350lbs, Snatch ≥150lbs, Pullups ≥20 reps
+
+## Architecture
